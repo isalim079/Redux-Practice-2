@@ -1,6 +1,7 @@
 import { BellIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import MyTasks from '../components/tasks/MyTasks';
 import TaskCard from '../components/tasks/TaskCard';
+import Modal from '../components/ui/Modal';
 
 const Tasks = () => {
   return (
@@ -18,6 +19,7 @@ const Tasks = () => {
               <BellIcon className="h-6 w-6" />
             </button>
             <button className="btn btn-primary">Add Task</button>
+            <Modal />
             <div className="h-10 w-10 rounded-xl overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=644&q=80"
