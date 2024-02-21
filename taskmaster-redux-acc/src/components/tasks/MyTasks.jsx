@@ -5,7 +5,7 @@ import {
 import { useSelector } from 'react-redux';
 
 const MyTasks = () => {
-  const {tasks} = useSelector((state) => state.taskSlice)
+  const {tasks} = useSelector((state) => state.tasksSlice)
 
   return (
     <div>
