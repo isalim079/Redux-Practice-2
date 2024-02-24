@@ -9,6 +9,7 @@ const initialState = {
 const userSlice = createSlice({
     name: 'userSlice',
     initialState,
+    
     reducers: {}
 })
 
