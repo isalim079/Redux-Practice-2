@@ -1,16 +1,16 @@
-import {createSlice} from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    name: 'Mir Hussain',
-    email: 'mir@gmail.com',
+    name: "Mir Hussain",
+    email: "mir@gmail.com",
     userTasks: [],
-}
+};
 
 const userSlice = createSlice({
-    name: 'userSlice',
+    name: "userSlice",
     initialState,
-    
-    reducers: {}
-})
 
-export default userSlice.reducer
+    reducers: {},
+});
+
+export default userSlice.reducer;
